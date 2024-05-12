@@ -3,8 +3,8 @@ server:
 spring:
   application:
     name: itemservice
-    profiles:
-      active: test
+  profiles:
+    active: test
   datasource:
     url: jdbc:mysql://${power.mysql.ip}:${power.mysql.port}/${power.mysql.db}?useSSL=false
     username: ${power.mysql.username}
